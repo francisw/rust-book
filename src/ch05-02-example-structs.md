@@ -179,6 +179,15 @@ following output:
 {{#include ../listings/ch05-using-structs-to-structure-related-data/listing-05-12/output.txt}}
 ```
 
+> Note: You may also see a helpful warning message from the compiler, depending on
+> your version of rust and default attributes.
+> `warning: fields `width` and `height` are never read`
+> The program still compiles, runs and outputs as in this example. If you find these
+> different outputs unhelpful in the book you can add the following attroibute tp the top of the
+> sample code:
+> `#[allow(dead_code)]`
+
+
 Nice! It’s not the prettiest output, but it shows the values of all the fields
 for this instance, which would definitely help during debugging. When we have
 larger structs, it’s useful to have output that’s a bit easier to read; in

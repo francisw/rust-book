@@ -181,11 +181,11 @@ following output:
 
 > Note: You may also see a helpful warning message from the compiler, depending on
 > your version of rust and default attributes.
-> `warning: fields `width` and `height` are never read`
+> `warning: fields \`width\` and \`height\` are never read`
 > The program still compiles, runs and outputs as in this example. If you find these
 > different outputs unhelpful in the book you can add the following attroibute tp the top of the
 > sample code:
-> `#[allow(dead_code)]`
+> `#\[allow(dead_code)\]`
 
 
 Nice! It’s not the prettiest output, but it shows the values of all the fields
